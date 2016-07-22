@@ -3,7 +3,7 @@
 describe('Component: GamesComponent', function () {
 
   // load the controller's module
-  beforeEach(module('meanTutorialApp'));
+  beforeEach(module('meanStackApp'));
 
   var GamesComponent;
 

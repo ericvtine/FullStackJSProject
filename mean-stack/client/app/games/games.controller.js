@@ -8,7 +8,7 @@ class GamesComponent {
   }
 }
 
-angular.module('meanTutorialApp')
+angular.module('meanStackApp')
   .component('games', {
     templateUrl: 'app/games/games.html',
     controller: GamesComponent,
