@@ -30,7 +30,7 @@
     }
   }
 
-  angular.module('meanTutorialApp')
+  angular.module('meanStackApp')
     .component('main', {
       templateUrl: 'app/main/main.html',
       controller: MainController

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('meanTutorialApp')
+angular.module('meanStackApp')
   .directive('navbar', () => ({
     templateUrl: 'components/navbar/navbar.html',
     restrict: 'E',

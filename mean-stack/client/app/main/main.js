@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('meanTutorialApp')
+angular.module('meanStackApp')
   .config(function($stateProvider) {
     $stateProvider.state('main', {
       url: '/',

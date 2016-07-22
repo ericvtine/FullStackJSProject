@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('meanTutorialApp')
+angular.module('meanStackApp')
   .factory('Modal', function($rootScope, $uibModal) {
     /**
      * Opens a modal

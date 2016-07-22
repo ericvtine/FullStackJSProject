@@ -6,7 +6,7 @@ module.exports = {
 
   // MongoDB connection options
   mongo: {
-    uri: 'mongodb://localhost/meantutorial-dev'
+    uri: 'mongodb://localhost/meanstack-dev'
   },
 
   // Seed database on startup

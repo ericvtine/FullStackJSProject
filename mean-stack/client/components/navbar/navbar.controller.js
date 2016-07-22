@@ -1,6 +1,16 @@
 'use strict';
 
-class NavbarController {}
+class NavbarController {
+  //end-non-standard
 
-angular.module('meanTutorialApp')
+  //start-non-standard
+  constructor(Auth) {
+    this.isLoggedIn = Auth.isLoggedIn;
+    this.isAdmin = Auth.isAdmin;
+    this.getCurrentUser = Auth.getCurrentUser;
+  }
+
+}
+
+angular.module('meanStackApp')
   .controller('NavbarController', NavbarController);
